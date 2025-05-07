@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Services Chatbot - PSID Technology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="branding">
+    <p class="company-name">PSID Technologies Pvt Ltd</p>
+   <p class="tagline">--------------building your future today</p>
+  </div>
+  
+  <div class="chatbox">
+    <div class="chatlog" id="chatlog"></div>
+
+    <div id="residentialImageContainer">
+      <img id="residentialImage" src="residential subscrition.jpg" alt="Residential Plan">
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+
+      <div class="quick-buttons">
+        <button onclick="handleQuickReply('1')">1️⃣ Services</button>
+        <button onclick="handleQuickReply('2')">2️⃣ Plans</button>
+        <button onclick="handleQuickReply('3')">3️⃣ Contact</button>
+      </div>
+    </div>
+
+    <div class="contact-links">
+      <p>Need more help? 📞 Contact us:</p>
+      <a href="mailto:manoj.psid@gmail.com" target="_blank">Email Us</a>
+      <a href="https://wa.me/919902528018?text=Hi%20I%20need%20more%20info%20about%20your%20services" target="_blank">WhatsApp Us</a>
+      <a href="https://www.psidtech.com" target="_blank">Visit Our Website</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
