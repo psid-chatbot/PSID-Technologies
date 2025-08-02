@@ -93,11 +93,13 @@ document.getElementById("userInput").addEventListener("keypress", function(e) {
 });
 
 window.onload = function () {
-  appendMessage('bot', "👋 Hello! Welcome to Property Services!");
+  appendMessage('bot', "👋 Hello! Welcome to PSID Technologies – your trusted partner for property services in Bangalore!");
+  appendMessage('bot', "Talk to our chatbot for construction, property management, billing software, and mobile/web app development.");
   appendMessage('bot', "Please choose an option:\n\n" +
     "1️⃣ View Our Services\n" +
     "2️⃣ View Our Plans\n" +
     "3️⃣ Contact Us / Find Our Location");
 };
+
 
 
