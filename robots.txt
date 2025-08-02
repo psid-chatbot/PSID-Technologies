@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://psid-chatbot.github.io/PSID-Technologies/sitemap.xml
